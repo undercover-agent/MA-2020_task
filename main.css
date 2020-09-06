@@ -1,0 +1,45 @@
+.wrapper {
+    width: 768px;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 26px;
+}
+  
+.input-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.input-field {
+    width: 250px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border-color: #ccc; 
+}
+  
+.submit-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background: #00e676;
+    font-weight: 700;
+}
+
+.output-list {
+    margin-bottom: 50px;
+}
